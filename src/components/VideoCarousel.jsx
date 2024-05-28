@@ -1,6 +1,11 @@
+import { useRef } from "react"
 import { hightlightsSlides } from "../constants"
 
 const VideoCarousel = () => {
+
+    const videoRef = useRef([]);
+    const videoSpanRef = useRef([]);
+    const videoDivRef = useRef([]);
     return (
         <>
         <div className="flex items-center">
